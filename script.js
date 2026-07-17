@@ -34,7 +34,7 @@ const playlist = [
     {
         audio: 'audio/song 7 - baundule ghuri.mp3',
         image: 'images/pic 7.jpg',
-        message: "Your voice is a gem Anu 💎💝 Kokkhono kharap bhabbi na or else ur biggest fan be bhery sad 🍎"
+        message: "Your voice is a gem Anu 💎💝 Kokkhono kharap bhabbi na or else ur biggest fan be bhery sad 🍎 You are the best💓"
     }
 ];
 
