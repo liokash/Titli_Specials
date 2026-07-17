@@ -19,7 +19,7 @@ const playlist = [
     {
         audio: 'audio/song 4 - number one girl.mp3',
         image: 'images/pic 4.jpg',
-        message: "A quick reminder je you are my one and only princess & I'll always be there for u🤗"
+        message: "A quick reminder je you are my one & only princess & I'll always be there for u🤗"
     },
     {
         audio: 'audio/song 5 - taake olpo kachhe dakchhi.mp3',
