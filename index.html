@@ -104,7 +104,7 @@
             color: #333;
             line-height: 1.5; /* Beautiful original comfortable spacing */
             font-weight: bold;
-            padding: 5px 2px;
+            padding: 14px 2px 2px 2px; /* Increased top padding to nudge desktop text down slightly */
             word-break: break-word;
             letter-spacing: 0.3px;
         }
@@ -265,129 +265,90 @@
         background-image: url('images/bg 2.jpg'); /* Custom mobile background */
     }
 
+    /* MUCH smaller player wrapper */
     #interactive-wrapper {
-        width: 210px;
-        height: 270px;
+        width: 165px;
+        height: 215px;
     }
 
-    /* 2. Compact Cassette Player Deck */
+    /* 2. Noticeably smaller Cassette Player Deck */
     #player-deck {
-        width: 210px;
-        height: 275px;
-        padding: 10px;
-        border-width: 3px;
-        border-radius: 15px;
+        width: 165px;
+        height: 220px;
+        padding: 8px;
+        border-width: 2.5px;
+        border-radius: 12px;
     }
 
     #cassette-window {
-        height: 155px;
-        border-radius: 8px;
+        height: 120px;
+        border-radius: 6px;
     }
 
     /* 3. Scaled-down Polaroid Frame & Text */
     .polaroid-photo-frame {
-        width: 105px;
-        height: 105px;
-        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        width: 80px;
+        height: 80px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
 
     #polaroid-message {
-        font-size: 8px;
-        padding: 3px 0 0 0;
-        line-height: 1.2;
-        letter-spacing: 0.1px;
+        font-size: 6.5px;
+        padding: 8px 0 0 0; /* Nudged down slightly for mobile */
+        line-height: 1.1;
+        letter-spacing: 0.05px;
     }
 
-    /* 4. Compact Cassette Tape (Backup View) */
+    /* 4. Compact Cassette Tape */
     #css-cassette {
-        width: 115px;
-        height: 70px;
-        padding: 4px;
+        width: 90px;
+        height: 55px;
+        padding: 3px;
     }
 
     #cassette-title {
-        font-size: 8px;
+        font-size: 6.5px;
     }
 
     .reels-container {
-        transform: scale(0.65);
+        transform: scale(0.5);
     }
 
-    /* 5. Compact Bottom Status Bar & Button */
+    /* 5. Smaller Bottom Status Bar & Button */
     #display-window {
-        height: 26px;
-        line-height: 26px;
-        font-size: 9px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 7.5px;
     }
 
     .control-btn {
-        padding: 4px 12px;
-        font-size: 9px;
+        padding: 2px 8px;
+        font-size: 7.5px;
     }
 
-    /* 6. EXPANDED ORBIT RADIUS (Diameter: 350px, Radius: 175px)
-       Pushes the top and bottom hearts further out so they do not clip! */
+    /* 6. ADJUSTED ORBIT (Diameter: 295px, Radius: 147.5px) */
     #orbit-container {
-        width: 350px; 
-        height: 350px;
+        width: 295px; 
+        height: 295px;
     }
 
-    /* Mathematically positioned so every heart orbits completely outside the deck */
-    .h1 { transform: translate(-50%, -50%) translate(0px, -175px); } /* Pushed up */
-    .h2 { transform: translate(-50%, -50%) translate(137px, -109px); }
-    .h3 { transform: translate(-50%, -50%) translate(170px, 39px); }
-    .h4 { transform: translate(-50%, -50%) translate(76px, 158px); }
-    .h5 { transform: translate(-50%, -50%) translate(-76px, 158px); }
-    .h6 { transform: translate(-50%, -50%) translate(-170px, 39px); }
-    .h7 { transform: translate(-50%, -50%) translate(-137px, -109px); }
+    /* Recalculated coordinates for exactly 147.5px radius */
+    .h1 { transform: translate(-50%, -50%) translate(0px, -147.5px); }
+    .h2 { transform: translate(-50%, -50%) translate(115px, -92px); }
+    .h3 { transform: translate(-50%, -50%) translate(143px, 33px); }
+    .h4 { transform: translate(-50%, -50%) translate(65px, 133px); }
+    .h5 { transform: translate(-50%, -50%) translate(-65px, 133px); }
+    .h6 { transform: translate(-50%, -50%) translate(-143px, 33px); }
+    .h7 { transform: translate(-50%, -50%) translate(-115px, -92px); }
 
-    /* Cute, compact hearts for mobile */
+    /* Cute, petite hearts for mobile */
     .heart {
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .heart-num {
-        font-size: 8px;
+        font-size: 6.5px;
         top: 38%;
-    }
-}
-
-/* Fallback for ultra-narrow viewport widths (e.g., under 330px) */
-@media (max-width: 330px) {
-    #scene-container {
-        background-image: url('images/bg 2.jpg');
-    }
-
-    #interactive-wrapper, #player-deck {
-        width: 190px;
-        height: 250px;
-    }
-
-    #cassette-window {
-        height: 135px;
-    }
-
-    .polaroid-photo-frame {
-        width: 90px;
-        height: 90px;
-    }
-
-    /* Radius: 155px for ultra-narrow screens */
-    #orbit-container {
-        width: 310px; 
-        height: 310px;
-    }
-
-    .h1 { transform: translate(-50%, -50%) translate(0px, -155px); }
-    .h2 { transform: translate(-50%, -50%) translate(121px, -96px); }
-    .h3 { transform: translate(-50%, -50%) translate(151px, 34px); }
-    .h4 { transform: translate(-50%, -50%) translate(67px, 140px); }
-    .h5 { transform: translate(-50%, -50%) translate(-67px, 140px); }
-    .h6 { transform: translate(-50%, -50%) translate(-151px, 34px); }
-    .h7 { transform: translate(-50%, -50%) translate(-121px, -96px); }
-
-    .heart {
-        font-size: 24px;
     }
 }
     </style>

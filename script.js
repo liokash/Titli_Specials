@@ -4,37 +4,37 @@ const playlist = [
     {
         audio: 'audio/song 1 - kesariya.mp3',
         image: 'images/pic 1.jpg',
-        message: "This is my favorite recording of you. Your voice is so pure and beautiful here! ❤️"
+        message: "I love your voice sm, eto effortlessly audience er samne gaash ki kore 😍"
     },
     {
         audio: 'audio/song 2 - qaafirana.mp3',
         image: 'images/pic 2.jpg',
-        message: "The way you hit these notes completely took my breath away. Never doubt yourself. ✨"
+        message: "Aha, so many memories✨ Eta jokhoni shuni, palpitation shuru uffff etooo shundor ❤"
     },
     {
         audio: 'audio/song 3 - tum ho toh.mp3',
         image: 'images/pic 3.jpg',
-        message: "I love this memory so much, but I love your voice in the background even more. 😘"
+        message: "My most mostttt favv, amader shei theme song. Tor voice ae magic healing achhe reee 🦋 Mon kharap holei shuni 💞"
     },
     {
         audio: 'audio/song 4 - number one girl.mp3',
         image: 'images/pic 4.jpg',
-        message: "A quick reminder that you sing better than anyone I know. Truly. 🦋"
+        message: "A quick reminder je you are always gonna be my one and only princess & I'll always be there for you🤗"
     },
     {
         audio: 'audio/song 5 - taake olpo kachhe dakchhi.mp3',
         image: 'images/pic 5.jpg',
-        message: "This song makes me feel so close to you. Your voice is my favorite sound. 🌸"
+        message: "Olpo keno? Enchant toh koreichhish, tene chepe dhor na 😜 Mone achhe brishtir kotha? 💖"
     },
     {
         audio: 'audio/song 6 - ei bhalo ei kharap.mp3',
-        image: 'images/pic 6.jpg',
-        message: "I could listen to you sing this on repeat forever and never get tired of it. ❤️"
+        image: 'images/pic 6.jpg', 
+        message: "Oho I could listen to this on repeat whole day & not get tired 🥰 I love ur voice so much 💗"
     },
     {
         audio: 'audio/song 7 - baundule ghuri.mp3',
         image: 'images/pic 7.jpg',
-        message: "Your voice is a gift, and I am so incredibly lucky to be the one you sing to. 🥰"
+        message: "Your voice is a gem Anu 💎💝 Kokkhono kharap bhabbi na or else ur biggest fan be bhery sad 🍎"
     }
 ];
 
