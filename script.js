@@ -12,14 +12,14 @@ const playlist = [
         message: "Aha, so many memories✨ Eta jokhoni shuni, palpitation shuru uffff etooo shundor ❤"
     },
     {
-        audio: 'audio/song 3 - tum ho toh.mp3',
+        audio: 'audio/song 3 - tum ho toh.mp3', 
         image: 'images/pic 3.jpg',
         message: "My most mostttt favv, amader shei theme song. Tor voice ae magic healing achhe reee 🦋 Mon kharap holei shuni 💞"
     },
     {
         audio: 'audio/song 4 - number one girl.mp3',
         image: 'images/pic 4.jpg',
-        message: "A quick reminder je you are my one & only princess & I'll always be there for u🤗"
+        message: "A quick reminder je you are my one and only princess & I'll always be there for you🤗"
     },
     {
         audio: 'audio/song 5 - taake olpo kachhe dakchhi.mp3',
@@ -34,7 +34,12 @@ const playlist = [
     {
         audio: 'audio/song 7 - baundule ghuri.mp3',
         image: 'images/pic 7.jpg',
-        message: "Your voice is a gem Anu 💎💝 Kokkhono kharap bhabbi na or else ur biggest fan be bhery sad 🍎 You are the best💓"
+        message: "Your voice is a gem Anu 💎💝 Kokkhono kharap bhabbi na or else ur biggest fan be bhery sad 🍎"
+    },
+    {
+        audio: 'audio/song 8 - saiyaara.mp3',
+        image: 'images/pic 8.jpg',
+        message: "Anu anu anu😍😍😍 Enhanting uffff if love had a sound, it would be your voice loml ❣"
     }
 ];
 
