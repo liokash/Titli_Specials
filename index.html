@@ -240,14 +240,15 @@
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
         }
 
-        /* Positions mapped to larger orbit path (280px radius) */
+        /* Positions mapped to uniform 8-heart orbit path (280px radius) */
         .h1 { transform: translate(-50%, -50%) translate(0px, -280px); }
-        .h2 { transform: translate(-50%, -50%) translate(218px, -175px); }
-        .h3 { transform: translate(-50%, -50%) translate(272px, 62px); }
-        .h4 { transform: translate(-50%, -50%) translate(121px, 252px); }
-        .h5 { transform: translate(-50%, -50%) translate(-121px, 252px); }
-        .h6 { transform: translate(-50%, -50%) translate(-272px, 62px); }
-        .h7 { transform: translate(-50%, -50%) translate(-218px, -175px); }
+        .h2 { transform: translate(-50%, -50%) translate(198px, -198px); }
+        .h3 { transform: translate(-50%, -50%) translate(280px, 0px); }
+        .h4 { transform: translate(-50%, -50%) translate(198px, 198px); }
+        .h5 { transform: translate(-50%, -50%) translate(0px, 280px); }
+        .h6 { transform: translate(-50%, -50%) translate(-198px, 198px); }
+        .h7 { transform: translate(-50%, -50%) translate(-280px, 0px); }
+        .h8 { transform: translate(-50%, -50%) translate(-198px, -198px); }
 
         @keyframes rotateOrbit { 100% { transform: rotate(360deg); } }
         @keyframes counterRotate { 100% { transform: rotate(-360deg); } }
@@ -332,14 +333,15 @@
         height: 295px;
     }
 
-    /* Recalculated coordinates for exactly 147.5px radius */
+    /* Recalculated coordinates for exactly 147.5px radius split 8 ways */
     .h1 { transform: translate(-50%, -50%) translate(0px, -147.5px); }
-    .h2 { transform: translate(-50%, -50%) translate(115px, -92px); }
-    .h3 { transform: translate(-50%, -50%) translate(143px, 33px); }
-    .h4 { transform: translate(-50%, -50%) translate(65px, 133px); }
-    .h5 { transform: translate(-50%, -50%) translate(-65px, 133px); }
-    .h6 { transform: translate(-50%, -50%) translate(-143px, 33px); }
-    .h7 { transform: translate(-50%, -50%) translate(-115px, -92px); }
+    .h2 { transform: translate(-50%, -50%) translate(104px, -104px); }
+    .h3 { transform: translate(-50%, -50%) translate(147.5px, 0px); }
+    .h4 { transform: translate(-50%, -50%) translate(104px, 104px); }
+    .h5 { transform: translate(-50%, -50%) translate(0px, 147.5px); }
+    .h6 { transform: translate(-50%, -50%) translate(-104px, 104px); }
+    .h7 { transform: translate(-50%, -50%) translate(-147.5px, 0px); }
+    .h8 { transform: translate(-50%, -50%) translate(-104px, -104px); }
 
     /* Cute, petite hearts for mobile */
     .heart {
@@ -369,6 +371,7 @@
                 <div class="heart-wrapper h5"><div class="heart-scaler"><div class="heart">❤️<span class="heart-num">5</span></div></div></div>
                 <div class="heart-wrapper h6"><div class="heart-scaler"><div class="heart">❤️<span class="heart-num">6</span></div></div></div>
                 <div class="heart-wrapper h7"><div class="heart-scaler"><div class="heart">❤️<span class="heart-num">7</span></div></div></div>
+                <div class="heart-wrapper h8"><div class="heart-scaler"><div class="heart">❤️<span class="heart-num">8</span></div></div></div>
             </div>
 
             <!-- The Huge Cassette Player Deck -->
